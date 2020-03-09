@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.menu {
+  border: 1px solid black;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 60%;
+  max-width: 400px;
+  height: 100%;
+  background-color: white;
+}
+
+.menu .menu_content .lesson {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: white;
+  color: black;
+  height: 40px;
+  -webkit-box-shadow: 3px 0 7px rgba(0, 0, 0, 0.3);
+          box-shadow: 3px 0 7px rgba(0, 0, 0, 0.3);
+  text-indent: 5em;
+}
+
+.menu .menu_content .exam {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #0e4cad;
+  color: white;
+  height: 40px;
+  -webkit-box-shadow: 3px 0 7px rgba(0, 0, 0, 0.3);
+          box-shadow: 3px 0 7px rgba(0, 0, 0, 0.3);
+  text-indent: 3em;
+}
+/*# sourceMappingURL=menu.css.map */

@@ -1,0 +1,13 @@
+$blue: #0e4cad;
+$red: #ff0000;
+*{
+    margin: 0;
+    padding:0;
+    font-family: 'Montserrat', sans-serif;
+}
+@mixin flexCenter( $direction ) {
+    display: flex;
+    flex-direction: $direction;
+    justify-content: center;
+    align-items: center;
+}

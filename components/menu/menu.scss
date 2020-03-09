@@ -1,0 +1,36 @@
+@import '../../src/variables';
+.menu{
+    border: 1px solid black;
+    position: fixed;
+    left: 0;
+    top:0;
+    width: 60%;
+    max-width: 400px;
+    height: 100%;
+    background-color: white;
+    .menu_info{
+
+    }
+    .menu_content{
+        .lesson{
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            background-color: white;
+            color: black;
+            height: 40px;
+            box-shadow: 3px 0 7px rgba(0, 0, 0, 0.3);
+            text-indent: 5em;
+        }
+        .exam{
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            background-color: $blue;
+            color: white;
+            height: 40px;
+            box-shadow: 3px 0 7px rgba(0, 0, 0, 0.3);
+            text-indent: 3em;
+        }
+    }
+}
